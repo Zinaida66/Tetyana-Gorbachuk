@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Mont-bolt', sans-serif;
+    src: url('./fonts/Montserrat/static/Montserrat-Bold.ttf');
+}
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('./fonts/Roboto/Roboto-Medium.ttf');
+}
+@font-face {
+    font-family: 'Red-hat-display';
+    src: url('./fonts/Red_Hat_Display/static/RedHatDisplay-Regular.ttf');
+}
