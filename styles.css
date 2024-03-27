@@ -1,10 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-header {
+body {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+body header {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -13,60 +19,69 @@ header {
   background-color: darkgray;
   box-shadow: 1px 1px 17px 9px inset rgb(82, 82, 82);
 }
-header img {
+body header img {
   margin: 10px;
   height: 100px;
   width: 100px;
 }
-header div {
-  font-size: 30px;
-  font-family: fantasy;
+body header div {
+  font-size: 26px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
-
-main .phone {
+body main .phone {
   display: flex;
   justify-content: center;
 }
-main .phone img {
+body main .phone img {
   border-radius: 20px;
   margin: 10px;
   width: 60%;
 }
-main .word {
+body main h1 {
+  font-family: "Pacifico", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body main .word {
   margin: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-main .word img {
+body main .word img {
   width: 300px;
   box-shadow: 0px 1px 10px 10px rgb(0, 0, 0);
   border-radius: 10px;
 }
-
-footer {
+body footer {
+  display: flex;
   width: 100%;
   height: 100px;
-  background-color: rgb(44, 43, 43);
-  box-shadow: 1px 1px 17px 9px inset rgb(22, 22, 22);
-}
-footer a {
+  background-color: rgb(175, 171, 171);
+  box-shadow: 1px 1px 17px 9px inset rgb(77, 76, 76);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
-footer a img {
-  margin: 20px;
+body footer a img {
   width: 50px;
   height: 50px;
 }
-
-@media screen and (max-width: 360px) {
-  main .word {
+@media screen and (max-width: 460px) {
+  body header {
+    height: 70px;
+  }
+  body header img {
+    width: 50px;
+    height: 50px;
+  }
+  body main .word {
     display: flex;
     flex-direction: column;
   }
-  main .word img {
+  body main .word img {
     margin: 20px;
   }
 }/*# sourceMappingURL=styles.css.map */
