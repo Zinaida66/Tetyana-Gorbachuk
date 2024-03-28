@@ -31,6 +31,7 @@ header{
     }
 }
 main{
+   
     .phone{
         display: flex;
         justify-content: center;
@@ -47,17 +48,19 @@ main{
         font-family: "Pacifico", serif;
         font-weight: 400;
         font-style: normal;
+        margin-left: 30px;
     }
 
       
     .word{
-        margin: 60px;
-        display: flex;
-        align-items: center;
-
-       
-       
-    }
+        width: 70%;
+        margin: 5% 15%;
+        div{
+            border:5px solid rgba(230, 230, 250, 0.014) ;
+            box-shadow: 3px 1px 17px 0px inset rgb(155, 155, 155);
+          
+        
+    }}
 }
 
 footer{
@@ -91,9 +94,8 @@ footer{
     .word{
         display: flex;
         flex-direction:column;
-         img{
-            margin: 20px;
-         }
+        justify-content: center;   
+         
     }
   }
 }}
