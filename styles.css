@@ -4,55 +4,65 @@
   box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+.text-1{
+  color: #e4d2d2  ;  
+  text-decoration: none;
 
+}
 .fonts{
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 30px;
+  font-size: 23px;
+ 
 }
 header{
-  background-color: rgb(243, 242, 242);
+  padding-left: 5px;
+  color: aliceblue;
+  background-color: rgb(0, 0, 0);
 }
 main{
   min-height: 700px;
   display: flex;
   justify-content: center;
-  padding-top: 50px;
-  background-color: rgb(243, 240, 240);
+  padding-top: 20px;
+  background-color: rgb(0, 0, 0);
 }
 .main-div{
-  
-  margin: 10px;
+  margin:10px;
   border-radius: 30px;
-  box-shadow: 0px 13px 40px 15px  rgb(218, 217, 217);  
+  box-shadow: 0px 13px 40px 15px inset rgba(151, 139, 124, 0.212);  
   width: 90%;
-  
-  background-color: rgb(230, 230, 230);
+  padding: 50px 0px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(235, 223, 201);
 }
 main div a{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
- text-decoration: none;
- margin: 0%;
+  text-decoration: none;
+  margin: 0%;
+  
 }
 main div a div{
   font-family: monospace;
   font-size: 30px;
-  color: rgb(44, 44, 44);
-  
+  color: rgb(252, 227, 204);
 }
 main div a img{
   margin: 10px ;
   border-radius: 30px;
   width: 80%;
- 
+  
 }
 main div div {
   display: flex;
   justify-content: center;
   font-size: 30px;
   margin: 10px 30px;
+}
+main div div a{
+  margin:0px  30px ;
 }
