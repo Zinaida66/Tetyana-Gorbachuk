@@ -9,13 +9,13 @@
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
-  
+  font-size: 30px;
 }
 header{
   background-color: rgb(243, 242, 242);
 }
 main{
-  
+  min-height: 700px;
   display: flex;
   justify-content: center;
   padding-top: 50px;
@@ -27,7 +27,7 @@ main{
   border-radius: 30px;
   box-shadow: 0px 13px 40px 15px  rgb(218, 217, 217);  
   width: 90%;
-  min-height: 500px;
+  
   background-color: rgb(230, 230, 230);
 }
 main div a{
