@@ -36,7 +36,7 @@ main div a{
   align-items: center;
   flex-direction: column;
  text-decoration: none;
- 
+ margin: 0%;
 }
 main div a div{
   font-family: monospace;
@@ -45,8 +45,14 @@ main div a div{
   
 }
 main div a img{
-  margin: 20px 10px;
+  margin: 10px ;
   border-radius: 30px;
   width: 80%;
  
+}
+main div div {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin: 10px 30px;
 }
