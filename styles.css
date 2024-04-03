@@ -1,83 +1,52 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
-body {
+.fonts{
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
+  
 }
-body header {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 150px;
-  width: 100%;
-  background-color: darkgray;
-  box-shadow: 1px 1px 17px 9px inset rgb(82, 82, 82);
+header{
+  background-color: rgb(243, 242, 242);
 }
-body header img {
-  margin: 10px;
-  height: 100px;
-  width: 100px;
-}
-body header div {
-  font-size: 26px;
-  font-family: "Pacifico", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-body main .phone {
+main{
+  
   display: flex;
   justify-content: center;
+  padding-top: 50px;
+  background-color: rgb(243, 240, 240);
 }
-body main .phone img {
-  border-radius: 20px;
+.main-div{
+  
   margin: 10px;
-  width: 60%;
+  border-radius: 30px;
+  box-shadow: 0px 13px 40px 15px  rgb(218, 217, 217);  
+  width: 90%;
+  min-height: 500px;
+  background-color: rgb(230, 230, 230);
 }
-body main h1 {
-  font-family: "Pacifico", serif;
-  font-weight: 400;
-  font-style: normal;
-  margin-left: 30px;
-}
-body main .word {
-  width: 70%;
-  margin: 5% 15%;
-}
-body main .word div {
-  border: 5px solid rgba(230, 230, 250, 0.014);
-  box-shadow: 3px 1px 17px 0px inset rgb(155, 155, 155);
-}
-body footer {
+main div a{
   display: flex;
-  width: 100%;
-  height: 100px;
-  background-color: rgb(175, 171, 171);
-  box-shadow: 1px 1px 17px 9px inset rgb(77, 76, 76);
-  display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-around;
+  flex-direction: column;
+ text-decoration: none;
+ 
 }
-body footer a img {
-  width: 50px;
-  height: 50px;
+main div a div{
+  font-family: monospace;
+  font-size: 30px;
+  color: rgb(44, 44, 44);
+  
 }
-@media screen and (max-width: 460px) {
-  body header {
-    height: 70px;
-  }
-  body header img {
-    width: 50px;
-    height: 50px;
-  }
-  body main .word {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-}/*# sourceMappingURL=styles.css.map */
+main div a img{
+  margin: 20px 10px;
+  border-radius: 30px;
+  width: 80%;
+ 
+}
